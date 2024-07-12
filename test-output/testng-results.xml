@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="2" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-12T09:08:52 IST" name="Suite" finished-at="2024-07-12T09:09:23 IST" duration-ms="31176">
+    <groups>
+    </groups>
+    <test started-at="2024-07-12T09:08:52 IST" name="ChromeTest" finished-at="2024-07-12T09:09:23 IST" duration-ms="31176">
+      <class name="testClasses.VerifyUserCanLogin">
+        <test-method is-config="true" signature="setupExtentReports()[pri:0, instance:testClasses.VerifyUserCanLogin@38425407]" started-at="2024-07-12T09:08:52 IST" name="setupExtentReports" finished-at="2024-07-12T09:08:52 IST" duration-ms="308" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupExtentReports -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testClasses.VerifyUserCanLogin@38425407]" started-at="2024-07-12T09:08:52 IST" name="setup" finished-at="2024-07-12T09:08:57 IST" duration-ms="4443" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="initialize(java.lang.reflect.Method)[pri:0, instance:testClasses.VerifyUserCanLogin@38425407]" started-at="2024-07-12T09:08:57 IST" name="initialize" finished-at="2024-07-12T09:08:57 IST" duration-ms="35" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testClasses.VerifyUserCanLogin.verifyUserCanLoginn() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="verifyUserCanLoginn()[pri:0, instance:testClasses.VerifyUserCanLogin@38425407]" started-at="2024-07-12T09:08:57 IST" name="verifyUserCanLoginn" finished-at="2024-07-12T09:09:03 IST" duration-ms="6712" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertFalse(Assert.java:79)
+at org.testng.Assert.assertFalse(Assert.java:89)
+at testClasses.VerifyUserCanLogin.verifyUserCanLoginn(VerifyUserCanLogin.java:63)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserCanLoginn -->
+        <test-method is-config="true" signature="logTestResult(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:testClasses.VerifyUserCanLogin@38425407]" started-at="2024-07-12T09:09:03 IST" name="logTestResult" finished-at="2024-07-12T09:09:04 IST" duration-ms="484" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testClasses.VerifyUserCanLogin.verifyUserCanLoginn() throws java.io.IOException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=verifyUserCanLoginn status=FAILURE method=VerifyUserCanLogin.verifyUserCanLoginn()[pri:0, instance:testClasses.VerifyUserCanLogin@38425407] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logTestResult -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testClasses.VerifyUserCanLogin@38425407]" started-at="2024-07-12T09:09:04 IST" name="tearDown" finished-at="2024-07-12T09:09:04 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="teardownExtentReports()[pri:0, instance:testClasses.VerifyUserCanLogin@38425407]" started-at="2024-07-12T09:09:23 IST" name="teardownExtentReports" finished-at="2024-07-12T09:09:24 IST" duration-ms="408" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownExtentReports -->
+      </class> <!-- testClasses.VerifyUserCanLogin -->
+      <class name="testClasses.VerifyUserCanAddNewAddress">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testClasses.VerifyUserCanAddNewAddress@22ff4249]" started-at="2024-07-12T09:09:04 IST" name="setup" finished-at="2024-07-12T09:09:04 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="initialize(java.lang.reflect.Method)[pri:0, instance:testClasses.VerifyUserCanAddNewAddress@22ff4249]" started-at="2024-07-12T09:09:04 IST" name="initialize" finished-at="2024-07-12T09:09:04 IST" duration-ms="7" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testClasses.VerifyUserCanAddNewAddress.VerifyUserCanGotoProfilePage()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="VerifyUserCanGotoProfilePage()[pri:1, instance:testClasses.VerifyUserCanAddNewAddress@22ff4249]" started-at="2024-07-12T09:09:04 IST" name="VerifyUserCanGotoProfilePage" finished-at="2024-07-12T09:09:05 IST" duration-ms="1323" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyUserCanGotoProfilePage -->
+        <test-method is-config="true" signature="logTestResult(org.testng.ITestResult)[pri:0, instance:testClasses.VerifyUserCanAddNewAddress@22ff4249]" started-at="2024-07-12T09:09:05 IST" name="logTestResult" finished-at="2024-07-12T09:09:05 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyUserCanGotoProfilePage status=SUCCESS method=VerifyUserCanAddNewAddress.VerifyUserCanGotoProfilePage()[pri:1, instance:testClasses.VerifyUserCanAddNewAddress@22ff4249] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logTestResult -->
+        <test-method is-config="true" signature="initialize(java.lang.reflect.Method)[pri:0, instance:testClasses.VerifyUserCanAddNewAddress@22ff4249]" started-at="2024-07-12T09:09:05 IST" name="initialize" finished-at="2024-07-12T09:09:05 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testClasses.VerifyUserCanAddNewAddress.verifyUserCanGotoAddressPage() throws org.apache.poi.EncryptedDocumentException,java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="verifyUserCanGotoAddressPage()[pri:2, instance:testClasses.VerifyUserCanAddNewAddress@22ff4249]" started-at="2024-07-12T09:09:05 IST" name="verifyUserCanGotoAddressPage" finished-at="2024-07-12T09:09:07 IST" duration-ms="2101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserCanGotoAddressPage -->
+        <test-method is-config="true" signature="logTestResult(org.testng.ITestResult)[pri:0, instance:testClasses.VerifyUserCanAddNewAddress@22ff4249]" started-at="2024-07-12T09:09:07 IST" name="logTestResult" finished-at="2024-07-12T09:09:07 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyUserCanGotoAddressPage status=SUCCESS method=VerifyUserCanAddNewAddress.verifyUserCanGotoAddressPage()[pri:2, instance:testClasses.VerifyUserCanAddNewAddress@22ff4249] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logTestResult -->
+        <test-method is-config="true" signature="initialize(java.lang.reflect.Method)[pri:0, instance:testClasses.VerifyUserCanAddNewAddress@22ff4249]" started-at="2024-07-12T09:09:07 IST" name="initialize" finished-at="2024-07-12T09:09:07 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testClasses.VerifyUserCanAddNewAddress.verfiyUserCanAddAddress() throws org.apache.poi.EncryptedDocumentException,java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="verfiyUserCanAddAddress()[pri:3, instance:testClasses.VerifyUserCanAddNewAddress@22ff4249]" started-at="2024-07-12T09:09:07 IST" name="verfiyUserCanAddAddress" finished-at="2024-07-12T09:09:23 IST" duration-ms="15581" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertFalse(Assert.java:79)
+at org.testng.Assert.assertFalse(Assert.java:89)
+at testClasses.VerifyUserCanAddNewAddress.verfiyUserCanAddAddress(VerifyUserCanAddNewAddress.java:75)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verfiyUserCanAddAddress -->
+        <test-method is-config="true" signature="logTestResult(org.testng.ITestResult)[pri:0, instance:testClasses.VerifyUserCanAddNewAddress@22ff4249]" started-at="2024-07-12T09:09:23 IST" name="logTestResult" finished-at="2024-07-12T09:09:23 IST" duration-ms="165" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verfiyUserCanAddAddress status=FAILURE method=VerifyUserCanAddNewAddress.verfiyUserCanAddAddress()[pri:3, instance:testClasses.VerifyUserCanAddNewAddress@22ff4249] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logTestResult -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testClasses.VerifyUserCanAddNewAddress@22ff4249]" started-at="2024-07-12T09:09:23 IST" name="tearDown" finished-at="2024-07-12T09:09:23 IST" duration-ms="264" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testClasses.VerifyUserCanAddNewAddress -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- Suite -->
+</testng-results>
