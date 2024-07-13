@@ -72,6 +72,7 @@ public class VerifyUserCanAddNewAddress  extends  BaseTest{
 	{
 		ap.fillAddressMethod();
 		ap.clickAddAddressBtn();
+		
 		Assert.assertTrue(ap.verifyAddressSave());
 	}
 
